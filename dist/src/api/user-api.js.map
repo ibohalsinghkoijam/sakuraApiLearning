@@ -1,0 +1,1 @@
+{"version":3,"file":"user-api.js","sourceRoot":"","sources":["../../../src/api/user-api.ts"],"names":[],"mappings":";;;;;;;;AAAA,0CAAuE;AAG/D,oBAHU,gBAAS,CAGV;AAFjB,qDAA+C;AAQ/C,IAAa,OAAO,GAApB,aAAqB,SAAQ,wBAAiB,EAAE;CAM/C,CAAA;AANY,OAAO;IAJnB,eAAQ,CAAC;QACR,OAAO,EAAE,MAAM;QACf,KAAK,EAAE,sBAAS;KACjB,CAAC;GACW,OAAO,CAMnB;AANY,0BAAO"}
