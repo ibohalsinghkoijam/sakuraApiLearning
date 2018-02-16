@@ -33,15 +33,6 @@ export {
   dbConfig: dbs.user
 })
 export class UserModel extends SapiModelMixin() {
-  // @Db() @Json()
-  // email: string;
-  //
-  // @Db({field: 'emailVerified'}) @Json({field: 'emailVerified'})
-  // emailVerificationKey: string;
-  //
-  // @Db({field: 'fn'}) @Json()
-  // firstName: string;
-
   @Db({field: 'email'}) @Json()
   email: string;
 
