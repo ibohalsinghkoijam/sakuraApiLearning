@@ -11,6 +11,7 @@ export {SakuraApi};
 })
 export class UserApi extends SapiRoutableMixin() {
 
+  // GET : to get all documents
   @Route()
   async GetAllUser(req: Request, res: Response, next: NextFunction) {
     let user;
@@ -24,6 +25,7 @@ export class UserApi extends SapiRoutableMixin() {
     next();
   }
 
+  // GET : id : to get document based on id
   @Route({
     method: 'get',
     path: ':id'
@@ -40,6 +42,7 @@ export class UserApi extends SapiRoutableMixin() {
     next();
   }
 
+  // POST : to create the new document
   @Route({
     method: 'post',
     path: ''
@@ -57,7 +60,7 @@ export class UserApi extends SapiRoutableMixin() {
     next();
   }
 
-  // post OR put
+  // Post OR put : update the documents
   @Route({
     method: 'put',
     path: ':id'
@@ -80,6 +83,7 @@ export class UserApi extends SapiRoutableMixin() {
     next();
   }
 
+  // DELETE : to delete the document by id
   @Route({
     method: 'delete',
     path: ':id'
